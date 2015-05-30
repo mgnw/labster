@@ -1,0 +1,128 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 auto;
+	color: #E74C3C;
+}
+
+body {
+	font-weight: 200;
+}
+
+.logo {
+	height: 21px;
+}
+
+/* Overwrite navbar */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #E74C3C;  /* Sets the text hover color on navbar */
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /* BACKGROUND color for active */
+background-color: #E74C3C;
+}
+
+  .navbar-default {
+    background-color: #2C3E50;
+    border: none;
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #fff;
+   text-decoration: none;
+   background-color: #fff;  /* Change color of links in drop down here */
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: white; /* Change rollover cell color here */
+  }
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /* Change active text color here */
+ }
+
+ /* End */
+
+.sep {
+	background-color: #2980B9;
+	height: 3px;
+	width: 60px;
+	margin: 40px auto;
+}
+
+.mobile-sep {
+	margin-bottom: 20px;
+}
+
+.wide-page {
+	width: 100%;
+}
+
+.wide-page-grey {
+	background-color: #ECF0F1;
+	padding: 40px 0;
+	margin: 20px 0 0 0;
+}
+
+.wide-page-blue {
+	background-color: #2C3E50;
+	padding: 50px 0 0 0;
+}
+
+.img-pad {
+	padding-bottom: 20px;
+}
+
+.head-img {
+	padding-bottom: 15px;
+}
+
+.social-img {
+	width: 32px;
+	height: 32px;
+}
+
+.company-img {
+	height: 64px;
+}
+
+ul {
+	line-height: 2;
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+.contact {
+	border-bottom: 1px dotted #fff;
+}
+
+.footer p{
+	color: #fff;
+}
+
+.footer-heading {
+	padding: 10px 0;
+}
+
+.sticky-foot {
+	border-top: 1px solid #E74C3C;
+	padding: 20px 0;
+	margin-top: 40px;
+	color: #fff;
+}
